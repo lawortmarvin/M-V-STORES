@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | LuxeVision</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">LuxeVision</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex ms-3">
+                    <a href="#" class="text-white me-3"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#" class="text-white"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Our Blog</h1>
+                    <p class="lead">Fashion tips, trends, and insights from the world of luxury accessories</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row" id="blog-posts">
+                        <!-- Blog posts will be loaded by JavaScript -->
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <div class="sidebar-widget mb-5">
+                            <h4>Categories</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Sunglasses Trends</a></li>
+                                <li><a href="#">Perfume Guides</a></li>
+                                <li><a href="#">Style Tips</a></li>
+                                <li><a href="#">Brand Stories</a></li>
+                                <li><a href="#">Seasonal Collections</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-widget mb-5">
+                            <h4>Popular Posts</h4>
+                            <div class="popular-post mb-3">
+                                <h6><a href="#">How to Choose the Perfect Sunglasses for Your Face Shape</a></h6>
+                                <span class="text-muted">April 12, 2023</span>
+                            </div>
+                            <div class="popular-post mb-3">
+                                <h6><a href="#">The Art of Layering Perfumes</a></h6>
+                                <span class="text-muted">March 28, 2023</span>
+                            </div>
+                            <div class="popular-post mb-3">
+                                <h6><a href="#">Summer 2023 Sunglasses Trends</a></h6>
+                                <span class="text-muted">March 15, 2023</span>
+                            </div>
+                        </div>
+                        <div class="sidebar-widget">
+                            <h4>Tags</h4>
+                            <div class="tags">
+                                <a href="#" class="tag">Sunglasses</a>
+                                <a href="#" class="tag">Perfume</a>
+                                <a href="#" class="tag">Fashion</a>
+                                <a href="#" class="tag">Luxury</a>
+                                <a href="#" class="tag">Style</a>
+                                <a href="#" class="tag">Trends</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 mx-auto">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p class="mb-4">Stay updated with our latest collections and exclusive offers</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email address" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>LuxeVision</h5>
+                    <p>Your premier destination for luxury sunglasses and perfumes. Quality, style, and elegance in every product.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Shop</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="product.html#sunglasses">Sunglasses</a></li>
+                        <li><a href="product.html#perfumes">Perfumes</a></li>
+                        <li><a href="product.html">New Arrivals</a></li>
+                        <li><a href="product.html">Best Sellers</a></li>
+                        <li><a href="product.html">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Information</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about us.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Refunds</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> 123 Fashion Street, New York, NY</li>
+                        <li><i class="fas fa-phone me-2"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@luxevision.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 LuxeVision. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>Designed with <i class="fas fa-heart text-danger"></i> for fashion enthusiasts</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="m&v.js"></script>
+    <script>
+        // Load blog posts on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadBlogPosts();
+        });
+    </script>
+</body>
+</html>
